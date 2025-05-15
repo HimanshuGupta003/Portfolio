@@ -113,7 +113,7 @@ margin: 0 auto 1rem;
 .title3 {
     font-family: "Rubik Dirt", system-ui;
     font-size: 70px;
-    /* margin-left: -7rem; */
+    margin-left: 4rem;
     font-weight: 100;
     background: linear-gradient(to right, #FFFFFF, #3F3939);
     -webkit-background-clip: text;
@@ -121,7 +121,11 @@ margin: 0 auto 1rem;
 }
 
 .writing-sec2{
-    margin-right: 9rem; 
+    margin-right: 3rem; 
+}
+
+.in{
+  margin-left: 5rem; 
 }
 
 

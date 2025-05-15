@@ -44,7 +44,7 @@ export default function Project() {
                 </div>
                 <div className="writing-sec2">
                     <h1 className="title3">Weather App</h1>
-                    <div className="proj-info1">
+                    <div className="proj-info1 in">
                         <div>A real-time weather forecast application built using React and OpenWeather API.</div>
                         <div className="proj-des1">
                             <div>&bull; Fetches and displays live weather data based on user location or search input.</div>
