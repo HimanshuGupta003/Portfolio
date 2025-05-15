@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+
+
+.header{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.underline {
+width: 5rem;
+height: 4px;
+background-color: #3b82f6;
+margin: 0 auto 1rem;
+}
+
+.proj-sec1{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.gym-img{
+    height: 400px;
+    width: 750px;
+}
+
+.title1 {
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 70px;
+    margin-right: 17rem;
+    font-weight: 100;
+    background: linear-gradient(to right, #878787, #FFAE00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.title2 {
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 70px;
+    margin-left: 6rem;
+    font-weight: 100;
+    background: linear-gradient(to right, #878787, #FFAE00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.proj-info1{
+    color: white;
+    line-height: 29px;
+}
+
+.proj-des1{
+    margin-left: 2rem;
+}
+
+.btn {
+    margin: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.btn-live {
+    background-color: #ff6a00;
+    color: white;
+}
+
+.btn-live:hover {
+    background-color: #e65c00;
+}
+
+.btn-code {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #ff6a00;
+}
+
+.btn-code:hover {
+    background-color: #ff6a00;
+    color: white;
+}
+
+.underline-btw-proj{
+    width: 70%;
+    height: 1.5px;
+    background-color: white;
+    margin: 0 auto 1rem;
+}
+
+.img-sec2{
+    height: 400px;
+    width: 750px;
+    background-color: white;
+    display: flex;   
+    justify-content: space-around;
+}
+
+
+.wea-img1{
+    height: 400px;
+    width: 400px;
+}
+.wea-img2{
+    height: 400px;
+    width: 400px;
+}
+
+.title3 {
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 70px;
+    /* margin-left: -7rem; */
+    font-weight: 100;
+    background: linear-gradient(to right, #FFFFFF, #3F3939);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.writing-sec2{
+    margin-right: 9rem; 
+}
+
+
+.btn-live1 {
+    background-color: gray;
+}
+.btn-live1:hover {
+    background-color: rgb(160, 157, 157);
+}
+
+
+.btn2:hover {
+    background-color: gray;
+}
+
+.btn2{
+    border: 2px solid gray;
+}
+
+.smart{
+    background: linear-gradient(to right, #FFFFFF, #33B75D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.farm{
+    background: linear-gradient(to right, #FFFFFF, #33B75D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.btn4{
+    background-color: #52763E;
+}
+.btn4:hover{
+    background-color: #83bb64;
+}
+
+.btn5{
+    border: 2px solid #52763E;
+}
+.btn5:hover{
+    background-color:  #52763E;
+}
+
+/* ---------- Laptops and Desktops ---------- */
+@media (max-width: 1200px) {
+  .proj-sec1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 1rem;
+  }
+
+  .gym-img, .img-sec2, .wea-img1, .wea-img2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .writing-sec1, .writing-sec2 {
+    margin: 1rem 0;
+  }
+
+  .title1, .title2, .title3 {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .proj-info1 {
+    line-height: 1.8rem;
+  }
+}
+
+/* ---------- Tablets ---------- */
+@media (max-width: 768px) {
+  .proj-sec1 {
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+
+  .img-sec1, .img-sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gym-img, .wea-img1, .wea-img2 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .title1, .title2, .title3 {
+    font-size: 40px;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 10px 10px;
+  }
+
+  .proj-info1 {
+    padding: 0 1rem;
+  }
+}
+
+/* ---------- Mobile Phones ---------- */
+@media (max-width: 480px) {
+  .title1, .title2, .title3 {
+    font-size: 32px;
+  }
+
+  .btn {
+    font-size: 14px;
+    margin: 8px 6px;
+  }
+
+  .proj-des1 {
+    margin-left: 0;
+  }
+
+  .underline, .underline-btw-proj {
+    width: 60%;
+  }
+
+  .header {
+    font-size: 2rem;
+  }
+}
