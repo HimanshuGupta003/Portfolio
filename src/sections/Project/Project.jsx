@@ -26,7 +26,7 @@ export default function Project() {
                             <div>&bull; Designed with a clean, intuitive UI to enhance user experience.</div>
                             <div> &bull; Tech Stack: HTML, CSS, JavaScript</div>
                         </div> <br />
-                        <a href="https://delightful-croissant-bf1db2.netlify.app/" target="_blank" className="btn btn-live">View Live</a>
+                        <a href="https://regal-gumdrop-37e05b.netlify.app/" target="_blank" className="btn btn-live">View Live</a>
                         <a href="https://github.com/HimanshuGupta003/health-fitness-website" target="_blank" className="btn btn-code">Source Code</a>
                     </div>
                 </div>
